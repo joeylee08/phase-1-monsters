@@ -6017,6 +6017,12 @@
       "age": "1233312",
       "description": "From Toy Story. A fearsome monster.",
       "id": 1003
+    },
+    {
+      "name": "Bobby Hill",
+      "age": "13",
+      "description": "A terrible monster. The son of Hank Hill and incredibly annoying.",
+      "id": 1004
     }
   ]
 }

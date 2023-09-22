@@ -31,7 +31,7 @@ function renderMonster(obj) {
   const desc = document.createElement('p');
 
   name.textContent = obj.name;
-  age.textContent = obj.age;
+  age.textContent = `Age: ${+obj.age.toFixed(1)} yrs`;
   desc.textContent = obj.description;
 
   div.append(name, age, desc);
@@ -49,7 +49,7 @@ function renderFifty() {
 
 //event listeners
 forwardArrow.addEventListener('click', () => {
-  if (index > collection.length) {
+  if (monstersDiv.children.length < 50) {
     alert('No mas can go front-o!')
     return;
   }
@@ -87,4 +87,5 @@ newMonsterForm.addEventListener('submit', (e) => {
   })
 })
 
+//function calls
 fetchAll()

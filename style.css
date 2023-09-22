@@ -1,8 +1,11 @@
+body {
+  margin-bottom: 3rem;
+}
+
 main#wrapper {
   margin: auto;
   width: 600px;
   height: 500px;
-  border: 2px solid red;
 }
 
 h1 {
@@ -13,7 +16,6 @@ h1 {
 div#create-monster {
   display: flex;
   text-align: center;
-  border: 2px solid blue;
   width: 250px;
   margin: auto;
 }
@@ -26,8 +28,8 @@ input.input {
 div#buttons {
   position: relative;
   margin: 1rem auto 0 auto;
+  margin-bottom: 2rem;
   text-align: center;
   width: 100px;
   height: 20px;
-  border: 2px solid red;
 }
